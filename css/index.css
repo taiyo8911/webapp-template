@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav a {
+    margin: 10px;
+    border-radius: 5px;
+    background: #60B99A;
+    color: #fff;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
